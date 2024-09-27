@@ -1,0 +1,132 @@
+
+
+#controller{
+    background-color: white;
+    z-index: 10;
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    bottom: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    border: 1px solid #e5d2d2;
+    border-radius: 0.5rem;
+    height: 20rem;
+    width: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 1px 2px 4px 1px gray;
+}
+
+.control, .shape-button{
+    cursor: pointer;
+    height: 2.5rem;
+    width: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+}
+
+.control:hover{
+    background-color: #d8d8d8;
+}
+
+.control-icon{
+    color: black;
+    height: 2rem;
+    width: 2rem;
+}
+
+.control-selected, .shape-selected{
+    background-color: #d8d8d8;
+    border: 1px solid black;
+}
+
+#shape-select-container{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 120px;
+    transform: translateY(-50%) translateX(-50%);
+    height: 10rem;
+    width: 3rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 2px 4px 1px gray;
+    background-color: white;
+    border-radius: 0.5rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.shape-button:hover{
+    background-color: #d8d8d8;
+}
+
+.shape-icon{
+    height: 2rem;
+    width: 2rem;
+}
+
+
+#shape-config-container{
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    right: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    width: 20rem;
+    box-shadow: 1px 2px 4px 1px gray;
+    background-color: white;
+    border-radius: 0.5rem;
+    justify-content: space-around;
+    align-items: center;
+    height: 3.5rem;
+}
+
+.config-control{
+    height: 2.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.color-picker{
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    color: black;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+
+/* WebKit browsers */
+.color-picker::-webkit-color-swatch-wrapper {
+    padding: 0;
+    border-radius: 50%  ; /* Makes the color swatch round */
+}
+
+.color-picker::-webkit-color-swatch {
+    border: 2px solid grey;
+    border-radius: 5px; /* Makes the color swatch round */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Box shadow */
+}
+
+.color-picker-input{
+    position: absolute;
+    bottom: 70px;
+}
+
+#line-width{
+    width: 2rem;
+    text-align: center;
+}

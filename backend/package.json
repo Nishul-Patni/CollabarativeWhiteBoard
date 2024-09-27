@@ -1,0 +1,27 @@
+{
+  "name": "chatapplicationbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.13.0",
+    "@types/socket.io": "^3.0.2",
+    "body-parser": "^1.20.2",
+    "const": "^1.0.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "google-auth-library": "^9.7.0",
+    "json-web-token": "^3.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.1",
+    "socket.io": "^4.7.5",
+    "typescript": "^5.4.5"
+  }
+}

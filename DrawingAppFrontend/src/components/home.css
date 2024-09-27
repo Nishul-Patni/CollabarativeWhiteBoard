@@ -1,0 +1,30 @@
+#home-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-buttons-container{
+    height: 15rem;
+    width: 25rem;
+    box-shadow: 0px 0px 5px 0px black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#join-room{
+    width: 15rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#room-input{
+    height: 2rem;
+    text-align: center;
+    width: 6rem;
+}
